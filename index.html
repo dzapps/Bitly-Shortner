@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>urlshortener</title>
+
+	<!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/urlshortener.css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+      
+        <form class="url-shortener">
+          <div class="form-group">
+          <label for="linkfield">Enter URL:</label>
+            <input type="text" class="form-control" id="url">
+          </div>
+          <button type="submit" class="btn btn-default" id="url-submit">Submit</button>
+          <button type="button" class="btn btn-default" id="url-copy" data-clipboard-target="clipboard-text">Copy</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/urlshortener.js"></script>
+  
+</body>
+
+</html>
